@@ -1,0 +1,57 @@
+.invert{
+  filter: invert(1);
+}
+.flex{
+    display: flex;
+
+}
+.direction-row{
+    flex-direction: row;
+}
+.background-nav-icons {
+  background-color: #1f1f1f;
+}
+.background-grey{
+  background-color: #121212;
+}
+
+.card-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.card-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+.card-container::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background: #3a3a3a;
+  border-radius: 10px;
+}
+
+
+.card-container::-webkit-scrollbar-thumb:hover {
+  background: #535353;
+}
+
+.songList::-webkit-scrollbar {
+  width: 10px;
+}
+
+.songList::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+.songList::-webkit-scrollbar-thumb {
+  background: #3a3a3a;
+  border-radius: 10px;
+}
+
+.songList::-webkit-scrollbar-thumb:hover {
+  background: #535353;
+}

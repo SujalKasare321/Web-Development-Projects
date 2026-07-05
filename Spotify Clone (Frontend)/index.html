@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+
+
+
+  <div class="nav flex ">
+    <div class="hamburger">
+      <img class="invert" src="Assets/hamburger.svg" alt="hamburger">
+    </div>
+    <img class="invert logo" src="Assets/logo.svg" alt="logo">
+    <span class="spotify">Spotify</span>
+
+    <button class="home background-nav-icons ">
+      <img class="house invert" src="Assets/home.svg" alt="home">
+      <span class="floating-home">
+        Home
+      </span>
+    </button>
+    <div class="search-container flex ">
+
+      <button class="background-nav-icons search-icon">
+        <img class="invert " src="Assets/search.svg" alt="search">
+      </button>
+      <span class="floating-search">
+        Search
+      </span>
+      <input type="text" class="search background-nav-icons" placeholder="What do you want to play?">
+      <span class="shortcut-Ctrl">Ctrl</span>
+      <span class="shortcut-K">K</span>
+    </div>
+    <ul class="flex download">
+      <li>Premium</li>
+      <li>Support</li>
+      <li>Download</li>
+    </ul>
+    <div class="separation">|</div>
+    <div class="install"><img class="invert down-arrow" src="Assets/download.svg" alt="download"> Install App</div>
+    <div class="signup">Sign up</div>
+    <button class="login">Log in</button>
+
+  </div>
+
+
+
+  <div class="main flex">
+    <div class="left background-grey">
+      <div class="close">
+        <img class="invert" src="Assets/close.svg" alt="close">
+      </div>
+      <div class="library">Your Library
+        <button class="background-grey plus">
+
+          <img class="invert " src="Assets/plus.svg" alt="plus">
+        </button> <span class="floating-create">Create playlist or folder</span>
+      </div>
+      <div class="songList">
+        <ul>
+
+        </ul>
+      </div>
+
+
+
+
+
+
+      <div class="left-footer">
+
+        <div class="links">
+
+          <span>
+            <a href="https://www.spotify.com/in-en/legal/">
+              <span>Legal</span>
+            </a>
+          </span>
+          <span>
+            <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+              <span>Safety & Privacy Center</span>
+            </a>
+          </span>
+          <span>
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+              <span>Privacy Policy</span>
+            </a>
+          </span>
+          <span>
+            <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+              <span>Cookies</span>
+            </a>
+          </span>
+          <span>
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+              <span>About Ads</span>
+            </a>
+          </span>
+          <span>
+            <a href="https://www.spotify.com/in-en/accessibility/">
+              <span>Accessibility</span>
+            </a>
+          </span>
+        </div>
+
+        <div class="language"><button class="background-grey english">
+            <img class="earth invert" src="Assets/earth.svg" alt="earth">English</button></div>
+      </div>
+    </div>
+
+    <div class="right background-grey">
+      <div class="trending">
+        <h1>Trending songs</h1>
+        <div class="card-container flex">
+
+
+
+          <div data-folder="playlist" class="card">
+            <img src="Assets/song-cover-pic/cover0.jpg" alt="cover-photo">
+            <span><img src="Assets/play.svg" alt="play"></span>
+            <h2>Top Hits</h2>
+            <div class="description">Hits to boost your mood </div>
+          </div>
+
+
+
+          <div data-folder="arijit" class="card">
+            <img src="Assets/song-cover-pic/cover1.jpg" alt="cover-photo">
+            <span><img src="Assets/play.svg" alt="play"></span>
+            <h2>Arijit Singh</h2>
+            <div class="description">Best hits by Arijit</div>
+          </div>
+
+
+
+          <div data-folder="motivational" class="card">
+            <img src="Assets/song-cover-pic/cover2.jpg" alt="cover-photo">
+            <span><img src="Assets/play.svg" alt="play"></span>
+            <h2>Motivational </h2>
+            <div class="description">Best motivational bollywood hits</div>
+          </div>
+
+
+          <div data-folder="phonk" class="card">
+            <img src="Assets/song-cover-pic/cover3.jpg" alt="cover-photo">
+            <span><img src="Assets/play.svg" alt="play"></span>
+            <h2>Phonk</h2>
+            <div class="description">Top phonks to vibe</div>
+          </div>
+
+
+          <div data-folder="eminem" class="card">
+            <img src="Assets/song-cover-pic/cover4.jpg" alt="cover-photo">
+            <span><img src="Assets/play.svg" alt="play"></span>
+            <h2>Eminem</h2>
+            <div class="description">English eminem rap songs</div>
+          </div>
+
+
+          <div data-folder="2000s" class="card">
+            <img src="Assets/song-cover-pic/cover5.jpg" alt="cover-photo">
+            <span><img src="Assets/play.svg" alt="play"></span>
+            <h2>2000s Hits</h2>
+            <div class="description">Bollywood best 2000s songs</div>
+          </div>
+
+
+         
+        </div>
+      </div>
+      <div class="abovebar flex">
+        <div class="playsong flex">
+          <div class="songinfo"></div>
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <div class="buttons flex">
+            <div class="leftplay "><img id="previous" src="Assets/leftplay.svg" alt="previous"></div>
+            <div class="pause "><img id="play" src="Assets/play2.svg" alt="play"></div>
+            <div class="rightplay "><img id="next" src="Assets/rightplay.svg" alt="next"></div>
+          </div>
+          <div class="timevol flex">
+
+            <div class="songtime"></div>
+            <div class="volume flex"><img src="Assets/volume.svg" alt="volume">
+              <div class="range"><input type="range" name="volume"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
